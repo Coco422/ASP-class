@@ -36,7 +36,7 @@ namespace C002
                 string sql = "select count(*) from users where username='" + name + "' and password='" + pwd + "'";//获取数据中的信息
 
                 //连接远程数据库
-                string connStr = "server=120.78.188.133;port=3306;uid=ray;pwd=ray123!@#;database=ray_asp_class";
+                string connStr = "server=121.36.14.112;port=3306;uid=ray;pwd=ray123!@#;database=ray_asp_class";
                 MySqlConnection conn = new MySqlConnection(connStr);
                 conn.Open();
                 MySqlCommand cmd = new MySqlCommand(sql, conn);

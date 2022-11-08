@@ -116,7 +116,7 @@
             <%--登陆界面--%>
 
             <div class="col-3" id="userInfomation">
-                
+
                 <form runat="server" style="width: 300px; margin-left: auto; margin-right: auto; text-align: center; margin-top: 100px;">
                     <h4>登录查看更多信息</h4>
                     <div class="form-group">
@@ -247,7 +247,7 @@
                 <!-- 院校分类 -->
                 <div class="list-group">
                     <a href="#" class="list-group-item list-group-item-action active" aria-current="true">热门院校
-				  </a>
+                    </a>
 
                     <a href="#" class="list-group-item list-group-item-action">广东科技学院No.1</a>
                     <a href="#" class="list-group-item list-group-item-action">清华大学</a>
@@ -268,8 +268,8 @@
             </div>
 
         </div>
+        </div>
 
-       
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
